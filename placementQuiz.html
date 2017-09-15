@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src= "myscript.js"></script>
     <!-- The above 2 meta tags should come first in the head; any other head content should come *after* these tags -->
 
     <!-- Bootstrap -->
@@ -35,7 +37,45 @@
     
     <!--page content-->
     <h1>Placement Quiz</h1>
-    
+		<tr id="quest1">
+				<td>
+					<p>Question #1: Have you taken a computer science class before?</p>
+					<input type="radio" name="q1" value="0" class="n">No, i'm new at this.</input><br>
+					<input type="radio" name="q1" value="1" class="y">Yes, I took a class once...</input><br>
+					<input type="radio" name="q1" value="2" class="y">Yes, I have taken 2 classes.</input><br>
+					<input type="radio" name="q1" value="3" class="y">I've taken far more than two classes, i'm a vetran.</input>
+					<br>
+				</td>
+			</tr>
+			<br>
+		<tr id="quest2">
+				<td>
+					<p>Question #2: What coding languages do you know?</p>
+					<input type="radio" name="q2" value="0" class="n">None, i'm new at this.</input><br>
+					<input type="radio" name="q2" value="1" class="y">I know scratch or snap.</input><br>
+					<input type="radio" name="q2" value="2" class="y">I've learned processing and/or HTML.</input><br>
+					<input type="radio" name="q2" value="3" class="y">I have learned some java and/or python.</input><br>
+					<input type="radio" name="q2" value="3" class="y">All or a combonation of the languages stated above.</input><br>
+				</td>
+		</tr>
+		<br>
+		<tr id="quest3">
+				<td>
+					<p>Question #3: How many years have you attended the Computer Science Academy ?</p>
+					<input type="radio" name="q3" value="0" class="n">I'm a new or perspective CSA student.</input><br>
+					<input type="radio" name="q3" value="1" class="y">I have been in the academy since the begining of the last school year.</input><br>
+					<input type="radio" name="q3" value="2" class="y">The academy has been my home for over one year.</input><br>
+					<input type="radio" name="q3" value="3" class="y">This is my last year in high school and in the academy.</input><br>
+					<br>
+		</tr>
+		<tr id="quest4">
+				<td>
+					<p>Question #4: Do you prefer coding front end or back end (aka what people see or what happens in the background)?</p>
+					<input type="radio" name="q4" value="0" class="n">I don't even know what you are talking about.</input><br>
+					<input type="radio" name="q4" value="1" class="y">I like to make things look nice and be colorful or cool (with math).</input><br>
+					<input type="radio" name="q4" value="2" class="y">Back end is best working on functionality and logic.</input><br>
+				</td>
+		</tr>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
