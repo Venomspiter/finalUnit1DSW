@@ -1,0 +1,33 @@
+#ex2{
+	height: 100px;
+	width: 75px;
+	background-color: #85996e;
+	position: relative;
+	vertical-align: middle;
+	padding: 10px;
+	display: block;		
+	overflow: auto;
+	margin:auto;
+	float:center;
+}
+#image1
+{
+	float:left;
+}
+.margin
+{
+	margin-left:20px
+}
+p
+{
+	font-size:20px;
+}
+h3
+{
+	font-size:30px;
+}
+ul{
+	font-size:15px;
+}
+
+
