@@ -66,3 +66,28 @@
 
   </body>
 </html>
+{% extends "layout.html" %}
+{% set active_Page = "DSW" %}
+{% block teacher %}adams.jpg{% endblock %}
+{% block teachername %}Ms. Adams {% endblock %}
+{% block description %}In this course you will learn web design! You will learn front end and back end design in this course.<br>
+	For the first couple weeks you will learn html,css,and jquery.
+	You will learn more about web design and creating a website.{% endblock %}
+{% block content %}
+{% unit 1 %}Front End Web Design{% endblock %}
+{% unit 2 %}Introduction to Python{% endblock %}
+{% unit 3 %}Heroku{% endblock %}
+{% unit 4 %}More Python and Flask{% endblock %}
+{% unit 5 %}OAuth{% endblock %}
+{% unit 6 %}Databases{% endblock %}
+{% unit 7 %}None{% endblock %}
+{% unit 8 %}None{% endblock %}
+{% unit 9 %}None{% endblock %}
+{% unit 10 %}None{% endblock %}
+{% unit 11 %}None{% endblock %}
+{% set active_Page = "CompArt" %}
+{% block example1 %}eight.jpg{% endblock %}
+{% block example2 %} {% endblock %}
+<h1>DSW</h1>
+{% endblock %}
+
