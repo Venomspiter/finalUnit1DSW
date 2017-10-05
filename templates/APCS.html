@@ -71,3 +71,27 @@
 
   </body>
 </html>
+{% extends "layout.html" %}
+{% set active_Page = "APCS" %}
+{% block teacher %}adams.jpg{% endblock %}
+{% block teachername %}Ms. Adams{% endblock %}
+{% block description %}In this course you will learn more about computer science! You will learn Java in this class and it will be a lot harder than ECS.<br>
+	The first thing you will learn in this class is to know the logic of each code and how it works.<br>
+	You will basically learn java throughout the whole year.{% endblock %}
+{% block content %}
+{% unit 1 %}Computer Systems{% endblock %}
+{% unit 2 %} Object Oriented Programming{% endblock %}
+{% unit 3 %}Java Syntax, Style, and Math{% endblock %}
+{% unit 4 %}Boolean Expressions and if-else Statements{% endblock %}
+{% unit 5 %}Algorithms and Iterative Statements{% endblock %}
+{% unit 6 %} Classes and Objects{% endblock %}
+{% unit 7 %}Strings{% endblock %}
+{% unit 8 %} Class Hierarchies and Interfaces{% endblock %}
+{% unit 9 %}Arrays{% endblock %}
+{% unit 10 %}ArrayLists{% endblock %}
+{% unit 11 %}Searching and Sorting{% endblock %}
+{% set active_Page = "DSW" %}
+{% block example1 %}apcs code.jpg{% endblock %}
+{% block example2 %}apcs example.jpg{% endblock %}
+<h1>DSW</h1>
+{% endblock %}
